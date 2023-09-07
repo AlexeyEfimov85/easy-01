@@ -5,6 +5,21 @@ const third = document.getElementById('third');
 const one = document.querySelector('.card_1');
 const two = document.querySelector('.card_2');
 const three = document.querySelector('.card_3');
+const buttonsOpenPopup = Array.from(document.getElementsByName('button-open'));
+const popup = document.querySelector('.popup');
+const buttonsClosePopup = Array.from(document.getElementsByName('button-close'));
+buttonsOpenPopup.forEach(function (buttonOpenPopup) {
+    buttonOpenPopup.addEventListener('click', function () {
+        popup.classList.add('popup_opened');
+    })
+})
+buttonsClosePopup.forEach(function (buttonClosePopup) {
+    buttonClosePopup.addEventListener('click', function () {
+        popup.classList.remove('popup_opened');
+    })
+})
+
+
 first.addEventListener('click', function () {
     if (first.checked) {
         one.classList.add('card_slider_opened');
