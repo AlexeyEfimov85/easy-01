@@ -1,0 +1,10 @@
+@use '_variables' as *;
+.promo__image {
+
+}
+
+@media screen and (max-width: $tablet) {
+    .promo__image {
+        display: none;
+    } 
+}

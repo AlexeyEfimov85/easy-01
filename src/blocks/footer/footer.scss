@@ -1,0 +1,13 @@
+@use "_variables" as *;
+.footer {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 60px;
+    background-color: $color-violet;
+    padding: 80px 0;
+    justify-items: center;
+}
+
+.footer > .section__text {
+    text-align: center;
+}

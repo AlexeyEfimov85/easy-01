@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="написать">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Алексей Ефимов">
+  <title>easy-01</title>
+
+</head>
+
+<body class="page">
+  <header class="header">
+    <img src="<%=require('./images/logo.svg')%>" class="logo">
+    <p class="header__promo-text"><span>вступайте в клуб</span><img
+        src="<%=require('../src/images/header__arrow.svg')%>" class="header__arrow"></p>
+    <button type="button" class="button" name="button-open">Зарегистрироваться</button>
+  </header>
+  <main>
+    <section class="promo">
+      <div class="promo__wrapper">
+        <div class="" style="display: flex; justify-content: space-between;">
+          <p class="promo__subheader">Клуб</p>
+          <img src="<%=require('../src/images/promo__image_4.svg')%>" class="promo__image_4">
+        </div>
+        <h1 class="section__heading">Правильные шахматы</h1>
+        <p class="section__text">Приходите к нам, играть в шахматы! Сразитесь классическом поединке, блиц состязании и
+          бою
+          с
+          гроссмейстером.</p>
+        <img src="<%=require('../src/images/promo__image2.svg')%>" class="promo__image_2">
+      </div>
+      <img src="<%=require('../src/images/promo__image.svg')%>" class="promo__image">
+      <img src="<%=require('../src/images/promo__image_3.svg')%>" class="promo__image_3">
+    </section>
+    <section class="team">
+      <h1 class="section__heading">Наша команда</h1>
+      <p class="section__text">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно
+        удовольствие!</p>
+      <div class="cards">
+        <div class="card">
+          <img src="<%=require('../src/images/card_1.png')%>" class="card__image">
+          <p class="card__title">Андрей</p>
+          <p class="card__text">Шахматист, писатель.</p>
+        </div>
+        <div class="card">
+          <img src="<%=require('../src/images/card_2.png')%>" class="card__image">
+          <p class="card__title">Никита</p>
+          <p class="card__text">Шахматист, кулинар.</p>
+        </div>
+        <div class="card">
+          <img src="<%=require('../src/images/card_3.png')%>" class="card__image">
+          <p class="card__title">Алексей</p>
+          <p class="card__text">Шахматист, геймер.</p>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="card card_slider card_slider_opened card_1">
+          <div class="slider__image slider__image_1"></div>
+          <p class="card__title">Андрей</p>
+          <p class="card__text">Шахматист, писатель.</p>
+        </div>
+        <div class="card card_slider card_2">
+          <div class="slider__image slider__image_2"></div>
+          <p class="card__title">Никита</p>
+          <p class="card__text">Шахматист, кулинар.</p>
+        </div>
+        <div class="card card_slider card_3">
+          <div class="slider__image slider__image_3"></div>
+          <p class="card__title">Алексей</p>
+          <p class="card__text">Шахматист, геймер.</p>
+        </div>
+      </div>
+      <form class="handlers" name="slider-handlers">
+        <input class="handlers__handler" type="radio" id="first" name="handler" checked>
+        <label class="handlers__appearence" for="first"></label>
+        <input class="handlers__handler" type="radio" id="second" name="handler">
+        <label class="handlers__appearence" for="second"></label>
+        <input class="handlers__handler" type="radio" id="third" name="handler">
+        <label class="handlers__appearence" for="third"></label>
+      </form>
+    </section>
+    <section class="invite">
+      <div class="invite__wrapper-image">
+        <img src="<%=require('../src/images/card__invite_1.png')%>" class="card__image">
+        <img src="<%=require('../src/images/card__invite_2.png')%>" class="card__image">
+      </div>
+      <div class="section__wrapper">
+        <h1 class="section__heading">Хочешь в&nbsp;комаду?</h1>
+        <p class="section__text">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
+        <img src="<%=require('../src/images/invite__image_3.svg')%>" class="invite__image_3">
+      </div>
+    </section>
+    <section class="battles">
+      <div class="section__wrapper_battles-1">
+        <h1 class="section__heading">Сражения</h1>
+        <p class="section__text">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки —
+          сыграйте с нашими шахматистами.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="<%=require('../src/images/card__battle_1.png')%>" class="card__image">
+        </div>
+        <div class="card">
+          <img src="<%=require('../src/images/card__battle_2.png')%>" class="card__image">
+        </div>
+        <div class="card">
+          <img src="<%=require('../src/images/card__battle_3.png')%>" class="card__image">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="card card_slider card_1_1  card_slider_opened">
+          <div class="slider__image slider__image_1"></div>
+          <p class="card__title">Андрей</p>
+          <p class="card__text">Шахматист, писатель.</p>
+        </div>
+        <div class="card card_slider card_2_1">
+          <div class="slider__image slider__image_2"></div>
+          <p class="card__title">Никита</p>
+          <p class="card__text">Шахматист, кулинар.</p>
+        </div>
+        <div class="card card_slider card_3_1">
+          <div class="slider__image slider__image_3"></div>
+          <p class="card__title">Алексей</p>
+          <p class="card__text">Шахматист, геймер.</p>
+        </div>
+      </div>
+      <form class="handlers" name="slider-handlers">
+        <input class="handlers__handler" type="radio" id="Andrey" name="handler-battles" checked>
+        <label class="handlers__appearence" for="Andrey"></label>
+        <input class="handlers__handler" type="radio" id="Nikita" name="handler-battles">
+        <label class="handlers__appearence" for="Nikita"></label>
+        <input class="handlers__handler" type="radio" id="Alexey" name="handler-battles">
+        <label class="handlers__appearence" for="Alexey"></label>
+      </form>
+      <div class="section__wrapper_battles">
+        <img src="<%=require('../src/images/battle_1.png')%>" class="card__image">
+        <img src="<%=require('../src/images/battle_2.png')%>" class="card__image" style="width: 48%;max-width: 416px;">
+      </div>
+      <img src="<%=require('../src/images/battle_2.png')%>" class="battle__image">
+    </section>
+  </main>
+  <footer class="footer">
+    <img src="<%=require('./images/logo.svg')%>" class="logo">
+    <button type="button" class="button" name="button-open">Зарегистрироваться</button>
+    <p class="section__text">Шахматный клуб в Москве.</p>
+    <p class="footer__copyright">© Chees Club.</p>
+  </footer>
+  <div class="popup">
+    <img src="<%=require('./images/logo.svg')%>" class="popup__logo">
+    <p class="popup__text">Регистрация</p>
+    <form class="popup__form">
+      <input class="popup__input" placeholder="Имя">
+      <input class="popup__input" placeholder="E-mail">
+    </form>
+    <button type="button" class="button" name="button-close" style="margin-bottom: 120px;">Зарегистрироваться</button>
+  </div>
+</body>
+
+</html>

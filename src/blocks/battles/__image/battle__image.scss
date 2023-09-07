@@ -1,0 +1,12 @@
+@use '_variables' as *;
+.battle__image {
+    display: none;
+}
+
+@media screen and (max-width: $mobile) {
+    .battle__image {
+        display: block;
+        width: 87.5%;
+        margin: auto;
+    }
+}
