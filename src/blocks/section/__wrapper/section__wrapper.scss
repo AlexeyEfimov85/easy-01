@@ -1,0 +1,11 @@
+@use '_variables' as *;
+.section__wrapper {
+    //margin-left: 100px;
+    margin-left: calc((100vw / 1440px) * 100px);
+}
+
+@media screen and (max-width: $mobile) {
+    .section__wrapper {
+        margin: auto;
+    }
+}

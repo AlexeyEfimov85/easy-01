@@ -1,0 +1,14 @@
+@use '_variables' as *;
+.invite {
+    background-color: $color-violet;
+    display: flex;
+    padding: 60px 11% 60px 0;
+    align-items: center;
+}
+
+@media screen and (max-width: $mobile) {
+    .invite {
+        padding: $padding-aside-mobile;
+        padding-bottom: 0px;
+    }
+}

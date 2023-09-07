@@ -1,0 +1,9 @@
+@use '_variables' as *;
+
+
+@media screen and (max-width: $mobile) {
+    .promo__image_2 {
+        justify-self: center;
+        width: 87.5%;
+    }
+}

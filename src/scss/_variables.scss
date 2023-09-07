@@ -1,0 +1,36 @@
+// ЦВЕТА
+$color-black: #000000;
+$color-violet: #5036E6;
+$color-btn: #009465;
+$color-btn-active: #066C4C;
+
+ 
+
+// для десктопа
+$subheader-text : 500 16px/15px 'Noto Sans', Arial, sans-serif; // текст подзаголовка
+$heading-text: 600 70px/63px 'Noto Sans', Arial, sans-serif; // текст заголовка
+$section-text: 400 20px/26px 'Noto Sans', Arial, sans-serif; // основной текст
+// межд планшетом и мобилой
+
+$subheader-text-tabmob : 500 12px/11px 'Noto Sans', Arial, sans-serif; // текст подзаголовка
+$heading-text-tabmob: 600 55px/54px 'Noto Sans', Arial, sans-serif; // текст заголовка
+$section-text-tabmob: 400 16px/20px 'Noto Sans', Arial, sans-serif; // основной текст
+
+// для мобилы
+$subheader-text-mobile : 500 12px/11px 'Noto Sans', Arial, sans-serif; // текст подзаголовка
+$heading-text-mobile: 600 40px/36px 'Noto Sans', Arial, sans-serif; // текст заголовка
+$section-text-mobile: 400 12px/15.6px 'Noto Sans', Arial, sans-serif; // основной текст
+
+// для кнопок
+$btn-text-desktop: normal 500 18px/24px 'Noto Sans', Arial, sans-serif; // текст кнопки десктоп
+$btn-text-mobile: normal 500 10px/18px 'Noto Sans', Arial, sans-serif; // текст кнопки мобила
+
+// паддинги
+$padding-aside: 0 11%;
+$padding-aside-tablet: 0 6.5%;
+$padding-aside-mobile: 20px 6.25%;
+
+// разрешения экрана
+$tablet: 868px;
+$from-tablet-to-mobile: 665px;
+$mobile: 550px;

@@ -1,0 +1,11 @@
+@use '_variables' as *;
+.invite__image_3 {
+    display: none;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: $mobile) {
+    .invite__image_3 {
+        display: block;
+    }
+}

@@ -1,0 +1,20 @@
+@use '_variables' as *;
+.promo {
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 80px 11%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: $tablet){
+    .promo {
+        padding: 0 0 50px 6.5%;
+    }
+}
+
+@media screen and (max-width: $mobile){
+    .promo {
+        padding: $padding-aside-mobile;
+    }
+}
