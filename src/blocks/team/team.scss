@@ -1,0 +1,21 @@
+@use '_variables' as *;
+.team {
+    background-color: $color-violet;
+    padding: $padding-aside;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+@media screen and (max-width: $tablet) {
+    .team {
+        padding: 50px 6.5%;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .team {
+        padding: 20px 6.25%;
+    }
+}

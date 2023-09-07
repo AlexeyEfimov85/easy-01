@@ -1,0 +1,28 @@
+@use '_variables' as *;
+.section__text {
+ font: $section-text;
+ margin: 0;
+ align-self: center;
+ width: 472px;
+}
+
+@media screen and (max-width: $tablet){
+    .section__text {
+        width: calc((100vw/868px)*472px)
+       }
+}
+
+@media screen and (max-width: $from-tablet-to-mobile){
+    .section__text {
+        font: $section-text-tabmob;
+        width: calc((100vw/868px)*472px)
+       }
+}
+
+@media screen and (max-width: $mobile){
+    .section__text {
+        font: $section-text-mobile;
+        width: 280px;
+        justify-self: center;
+       }
+}

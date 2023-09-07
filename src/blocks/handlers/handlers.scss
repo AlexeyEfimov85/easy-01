@@ -1,0 +1,12 @@
+@use '_variables' as *;
+.handlers {
+    display: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: $mobile){
+    .handlers {
+        display: flex;
+    }
+}

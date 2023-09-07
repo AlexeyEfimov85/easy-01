@@ -1,0 +1,16 @@
+@font-face {
+  src:
+    url(./woff2/noto-sans.woff2) format('woff2'),
+    url(./woff/noto-sans.woff) format('woff');
+  font-family: 'Noto Sans';
+  font-weight: 400;
+}
+
+@font-face {
+  src:
+    url(./woff2/noto-sans-display-semibold.woff2) format('woff2'),
+    url(./woff/noto-sans-display-semibold.woff) format('woff');
+  font-family: 'Noto Sans';
+  font-weight: 600;
+}
+

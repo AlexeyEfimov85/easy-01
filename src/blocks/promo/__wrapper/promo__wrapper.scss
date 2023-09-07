@@ -1,0 +1,10 @@
+.promo__wrapper {
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 3fr;
+    align-items: end;
+    width: 100%;
+}
+
+.promo__wrapper > h1 {
+    margin-bottom: 0;
+}

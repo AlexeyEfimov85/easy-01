@@ -1,0 +1,17 @@
+@use "_variables" as *;
+.card__text {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width: $mobile) {
+    .card__text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: center;
+    }
+}

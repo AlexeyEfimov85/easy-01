@@ -1,0 +1,16 @@
+@use '_variables' as *;
+.promo__image_3 {
+    display: none;
+}
+
+@media screen and (max-width: $tablet) {
+    .promo__image_3 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .promo__image_3 {
+        display: none;
+    }
+}

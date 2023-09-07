@@ -1,0 +1,12 @@
+@use '_variables' as *;
+
+.invite__wrapper-image {
+    margin-left: calc((100vw - 1440px)/1.5);
+    display: flex;
+}
+
+@media screen and (max-width: $mobile) {
+    .invite__wrapper-image {
+        display: none;
+    }
+}

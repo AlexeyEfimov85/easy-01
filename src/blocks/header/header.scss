@@ -1,0 +1,23 @@
+@use '_variables' as *;
+.header {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr;
+    grid-template-rows: 108px;
+    align-items: center;
+    padding: $padding-aside;
+}
+
+@media screen and (max-width: $tablet) {
+    .header {
+        padding: $padding-aside-tablet;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .header {
+        padding: $padding-aside-mobile;
+        display: flex;
+        justify-content: space-between;
+    }
+}

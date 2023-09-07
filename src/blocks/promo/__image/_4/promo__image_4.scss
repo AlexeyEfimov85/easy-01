@@ -1,0 +1,10 @@
+@use '_variables' as *;
+.promo__image_4 {
+    display: none;
+}
+
+@media screen and (max-width: $mobile){
+    .promo__image_4 {
+        display: block;
+    }
+}
